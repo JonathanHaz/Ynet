@@ -1,0 +1,226 @@
+*{
+    font-family: sans-serif;
+}
+
+.header{
+    height: 105px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #ffffff;
+    position: relative;
+    gap: 6rem;
+    margin-left: 22rem;
+    padding-bottom: 1rem;
+    font-size: 12px;
+    font-family :sans-serif;
+}
+#sub{
+    height: 27px;
+    border-radius: 13px;
+    border: solid 1px #000;
+    padding: 0px 59px 0 8px;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: border-box;
+    display: flex;
+    line-height: initial;
+    text-decoration: none;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 52px 19px;
+    background-position: 98%;
+    background-image: url(images/ynet.svg);
+}
+.header img{
+    width: 10%;
+}
+.ad img{
+    width: 1192px;
+    height: 130px;
+    margin-left: 20rem;
+    border: 5px solid rgb(233, 233, 233);
+}
+.navbar{
+    display: flex;
+    margin: 0;
+    padding: 0 15px;
+    background-color: rgb(222, 26, 26);
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    width: 75rem;
+    margin-left: 20rem;
+    height: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+.navbar a:hover{
+    font-weight: bold;
+}
+.ad2 img{
+    width: 300px;
+    height: 600px;
+    position: static;
+    margin: -20rem;
+    padding: 0;
+    margin-left: 100rem;
+    z-index: 10;
+    ;
+}
+.grid2{
+    display: flex;
+    background-color: #f3f8f9;
+    width: 75rem;
+    height: 7rem;
+    gap: 10px;
+    margin-left: 20rem;
+    justify-content: space-around;
+
+}
+.grid{
+    border-right:1px dotted black;
+
+}
+.textdiv{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 35px 84px;
+    height: 100%;
+    direction: rtl;
+    display: inline-flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+    height: 20rem;
+    margin-left: 14.8rem;
+}
+.textdiv img{
+    width: 611px;
+    height: 343px;
+    flex-shrink: 0;
+    position: relative;
+}
+.date{
+    font-size: 18px;
+    height: 24px;
+    line-height: 24px;
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+.toptext{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px 0px 10px;
+    line-height: 44px
+}
+.bottomtext{
+    font-size: 18px;
+    line-height: 26px;
+}
+.credits{
+    font-size: 15px;
+    max-width: 300px;
+    position: absolute;
+    bottom: 0;
+    color: #78787b;
+}
+.imagecontainer{
+    position: relative;
+    min-height: 517px;
+    padding-bottom: 0;
+    width: 1240px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.quadra{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 497px;
+    width: 610px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imquad{
+    background-color: aqua;
+}
+.smallad{
+    position: absolute;
+    top: 0;
+    left: 630px;
+    height: 250px;
+    width: 300px;
+}
+.bigad{
+    position: absolute;
+    top: 0;
+    left: 940px;
+    height: 497px;
+    width: 300px;
+}
+.smallad2{
+    position: absolute;
+    top: 265px;
+    left: 630px;
+    height: 232px;
+    width: 300px;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    margin: 10px 10px 10px 20rem;
+}
+.double{
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.contain2wrap{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+
+.rightt{
+    width: 500px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: #1417AC;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2px;
+    direction: rtl;
+}
+.leftt{
+    width: 610px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    background-color: #1417AC;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 2px;
+    direction: rtl;
+}
+.contain a{
+    margin-left: 2rem;
+}
